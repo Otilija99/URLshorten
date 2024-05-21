@@ -1,7 +1,6 @@
 <?php
 
-echo 'Enter the long URL: ';
-$longUrl = trim(fgets(STDIN));
+$longUrl=trim(readline('Enter the long URL: '));
 
 $apiUrl = 'https://cleanuri.com/api/v1/shorten';
 $postData = [
